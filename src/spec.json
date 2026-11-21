@@ -1,0 +1,203 @@
+{
+  "title": "Registro infrazioni e multe",
+  "description": "Segna le multe, controlla lo stato delle pratiche e prepara il riepilogo mensile.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Un colpo d’occhio sulle pratiche e sulle attività in arrivo.",
+      "metrics": [
+        {
+          "label": "Segnalazioni aperte",
+          "value": "8"
+        },
+        {
+          "label": "Verbali del mese",
+          "value": "24"
+        },
+        {
+          "label": "Permessi rilasciati",
+          "value": "5"
+        },
+        {
+          "label": "Servizi di oggi",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Pratica",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Verificare pagamento",
+          "PL-2604",
+          "18/06/2026",
+          "Da controllare"
+        ],
+        [
+          "Completare verbale",
+          "PL-2607",
+          "19/06/2026",
+          "In lavorazione"
+        ],
+        [
+          "Preparare riepilogo mensile",
+          "Report giugno",
+          "30/06/2026",
+          "Da fare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-multe",
+      "title": "Registro multe",
+      "description": "Cerca le pratiche, filtra per stato e aggiungi una nuova multa.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PL-2601",
+          "Sosta vietata",
+          "Piazza Lumo",
+          "Agente Vela",
+          "02/06/2026",
+          "Inviata"
+        ],
+        [
+          "PL-2602",
+          "Accesso non consentito",
+          "Viale Nubi",
+          "Agente Rivo",
+          "03/06/2026",
+          "Da inviare"
+        ],
+        [
+          "PL-2603",
+          "Sosta vietata",
+          "Via Terso",
+          "Agente Luma",
+          "05/06/2026",
+          "Pagata"
+        ],
+        [
+          "PL-2604",
+          "Sosta su area riservata",
+          "Piazza Vela",
+          "Agente Nubi",
+          "06/06/2026",
+          "Da controllare"
+        ],
+        [
+          "PL-2605",
+          "Accesso non consentito",
+          "Via Lumo",
+          "Agente Rivo",
+          "09/06/2026",
+          "Inviata"
+        ],
+        [
+          "PL-2606",
+          "Sosta vietata",
+          "Viale Terso",
+          "Agente Vela",
+          "11/06/2026",
+          "Da inviare"
+        ],
+        [
+          "PL-2607",
+          "Sosta su area riservata",
+          "Piazza Nubi",
+          "Agente Luma",
+          "12/06/2026",
+          "In lavorazione"
+        ],
+        [
+          "PL-2608",
+          "Accesso non consentito",
+          "Via Rivo",
+          "Agente Nubi",
+          "14/06/2026",
+          "Pagata"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Zona",
+        "Agente",
+        "Data",
+        "Stato"
+      ]
+    },
+    {
+      "id": "report-mensile",
+      "title": "Report mensile",
+      "description": "Riepilogo pronto da consultare e stampare per il mese scelto.",
+      "metrics": [
+        {
+          "label": "Verbali registrati",
+          "value": "24"
+        },
+        {
+          "label": "Inviati",
+          "value": "16"
+        },
+        {
+          "label": "Da inviare",
+          "value": "5"
+        },
+        {
+          "label": "Pagati",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Tipo",
+        "Pratiche",
+        "Inviate",
+        "Da inviare",
+        "Pagate"
+      ],
+      "rows": [
+        [
+          "Sosta vietata",
+          "12",
+          "8",
+          "3",
+          "1"
+        ],
+        [
+          "Accesso non consentito",
+          "7",
+          "5",
+          "1",
+          "1"
+        ],
+        [
+          "Sosta su area riservata",
+          "5",
+          "3",
+          "1",
+          "1"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "blu-notte",
+    "fonts": "istituzionale"
+  }
+}
